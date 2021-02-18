@@ -14,7 +14,17 @@ sprintf(ch, "%d", n);
 sscanf(ch, "%d", &n);
 ```
 
+### 字符数组和字符串
 
+```cpp
+// 字符数组转成字符串
+char ch[] = "QIUYEYIJIAN";		// 定义字符数组
+string str(ch);					// 将字符数组转成字符串
+string str = ch;				// 另一种方式
+
+// 字符串转字符数组
+char buff = str.c_str();
+```
 
 ## 排序
 
